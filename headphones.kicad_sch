@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ab7af943-eaf5-434f-ae3c-e2d80b8e50bf")
+	(paper "A4")
+	(title_block
+		(title "Hexagonal Headphones")
+		(date "2024-09-26")
+		(rev "v0.0.1")
+		(company "Tobi's Basics")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,16 @@
+union(){
+    minkowski(){
+        cylinder(r=400,h=10,$fn=6);
+        cylinder(r=10,h=10);
+    }
+translate([0,0,0.09]){
+	color("red"){
+        difference(){
+            minkowski(){cylinder(r=390,h=381,$fn=6);
+                cylinder(r=10,h=381);}
+            translate([0,0,-10]){
+    cylinder(r=380,h=400,$fn=6);   
+            };    
+        };
+    }};
+};
